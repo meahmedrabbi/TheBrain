@@ -1,0 +1,61 @@
+hello|Hi there! How can I help you today?
+hi|Hello! Welcome!
+hey|Hey! What can I do for you?
+good morning|Good morning! How can I assist you?
+good evening|Good evening! Nice to see you!
+how are you|I'm great! How can I help you?
+thank you|You're welcome! Happy to help!
+thanks|My pleasure!
+bye|Goodbye! Have a great day!
+goodbye|See you later!
+what is your name|I'm TheBrain, your company assistant!
+who are you|I'm TheBrain, here to help you with company information!
+what can you do|I can tell you about our company and services!
+help|I'm here to help! Ask me about our company or services!
+tell me about your company|We provide excellent services to our customers. What would you like to know?
+tell me about the company|Our company is dedicated to providing quality services!
+what does your company do|We offer professional services to help our clients succeed!
+company info|Our company focuses on delivering top quality services!
+about company|We're a service company dedicated to customer satisfaction!
+what services do you offer|We offer a wide range of professional services!
+what are your services|We provide quality services tailored to your needs!
+services|We offer excellent services! Would you like details?
+tell me about services|We provide professional services to help you achieve your goals!
+service info|Our services are designed to meet your needs perfectly!
+your services|We offer comprehensive services! What interests you?
+do you have|Yes! We have various services. What are you looking for?
+what is the price|Our pricing is competitive! Contact us for a detailed quote!
+how much does it cost|Pricing varies by service. Please contact us for details!
+pricing|We offer flexible pricing! Get in touch for a custom quote!
+cost|Our costs are reasonable! Contact us to discuss your needs!
+contact|Please reach out to us! We'd love to hear from you!
+how to contact|You can contact us anytime! We're here to help!
+reach you|Feel free to contact us through our website or phone!
+email|You can email us anytime! We respond quickly!
+phone number|Contact us through our official channels!
+location|We're here to serve you! Contact us for location details!
+where are you|We operate to serve our customers! Get in touch with us!
+working hours|We're available during business hours! Contact us anytime!
+hours|We work regular business hours to serve you better!
+support|We provide excellent customer support! How can we help?
+customer service|Our customer service team is ready to assist you!
+help me|Of course! What do you need help with?
+i need help|I'm here for you! Tell me what you need!
+question|Ask away! I'm here to answer your questions!
+i have a question|Go ahead! I'm listening!
+tell me more|I'd be happy to provide more information! What interests you?
+more info|Sure! What would you like to know more about?
+details|I can provide details! What specifically are you interested in?
+why choose you|We offer quality, reliability, and excellent customer service!
+why your company|We're committed to excellence and customer satisfaction!
+what makes you different|We focus on quality and personalized service!
+best service|We strive to provide the best service possible!
+quality|Quality is our top priority in everything we do!
+reliable|Yes! We're reliable and trustworthy!
+professional|We maintain high professional standards!
+experienced|We have experience serving customers like you!
+yes|Great! How can I help you further?
+no|Okay! Let me know if you need anything!
+okay|Sounds good! Anything else?
+sure|Perfect! What else can I help with?
+maybe|Take your time! I'm here when you need me!
