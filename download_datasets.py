@@ -6,6 +6,7 @@ Downloads and prepares multiple open datasets for training
 import os
 import urllib.request
 import zipfile
+import ast
 import argparse
 from tqdm import tqdm
 
@@ -74,7 +75,10 @@ def download_cornell_movie_dialogs(data_dir='data'):
             for line in f:
                 parts = line.split(' +++$+++ ')
                 if len(parts) >= 4:
-                    conv = eval(parts[3])
+                    try:
+                        conv = ast.literal_eval(parts[3])
+                    except (ValueError, SyntaxError):
+                        continue
                     for i in range(len(conv) - 1):
                         if conv[i] in lines and conv[i + 1] in lines:
                             input_text = lines[conv[i]].replace('|', ' ')

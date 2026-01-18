@@ -11,6 +11,7 @@ import numpy as np
 import os
 import time
 import json
+import ast
 from tqdm import tqdm
 import argparse
 
@@ -192,7 +193,10 @@ def load_cornell_movie_data(lines_file, conversations_file):
         for line in f:
             parts = line.split(' +++$+++ ')
             if len(parts) >= 4:
-                conv = eval(parts[3])
+                try:
+                    conv = ast.literal_eval(parts[3])
+                except (ValueError, SyntaxError):
+                    continue
                 for i in range(len(conv) - 1):
                     if conv[i] in lines and conv[i + 1] in lines:
                         pairs.append((lines[conv[i]], lines[conv[i + 1]]))
@@ -334,7 +338,15 @@ def main():
     all_pairs = []
     
     for data_file in args.data:
-        if data_file.endswith('.txt') and '|' in open(data_file, 'r').read():
+        # Detect file format by reading first few lines
+        try:
+            with open(data_file, 'r', encoding='utf-8') as f:
+                first_lines = [f.readline() for _ in range(min(5, sum(1 for _ in f) + 1))]
+            has_pipe = any('|' in line for line in first_lines)
+        except:
+            has_pipe = False
+        
+        if data_file.endswith('.txt') and has_pipe:
             pairs = load_conversational_data(data_file)
         elif 'dailydialog' in data_file.lower():
             pairs = load_dailydialog_data(data_file)
